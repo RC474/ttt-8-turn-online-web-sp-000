@@ -32,7 +32,7 @@ end
 def turn(input)
   puts "Please enter 1-9:"
   
-  while valid_move?(input) == false do 
+  while valid_move?(board, input) == false do 
     user_input = gets.chomp
   end
 end
