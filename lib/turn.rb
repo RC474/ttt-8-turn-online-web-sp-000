@@ -41,6 +41,9 @@ def turn(board)
   
   if !vaild_input
     turn
+  else
+    move(board, index)
+    display_board(board)
   end
 end
 
