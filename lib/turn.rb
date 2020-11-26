@@ -1,5 +1,7 @@
-def display_board(
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+
+def display_board(board)
   puts 'display board'
 #board output
 puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -33,10 +35,9 @@ end
 
 def turn(input)
   puts "Please enter 1-9:"
+  user_input = gets.chomp 
+  index = input_to_index(user_input)
   
-  while valid_move?(board, input) == false do 
-    input = gets.chomp
-  end
 end
 
 
