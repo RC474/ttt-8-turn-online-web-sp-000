@@ -26,6 +26,8 @@ end
 def move(board, index, token)
   # board[0] = "O"
   # board[8] = "X"
+  
+  board[index] = token 
 end
 
 
