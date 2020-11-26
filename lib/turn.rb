@@ -40,7 +40,7 @@ def turn(board)
   vaild_input = valid_move?(board, index)
   
   if !vaild_input
-    turn
+    turn(board)
   else
     move(board, index)
     display_board(board)
