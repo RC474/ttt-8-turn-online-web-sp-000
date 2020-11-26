@@ -29,7 +29,7 @@ def move(board, index, token)
 end
 
 
-def turn(input)
+def turn(input, board)
   puts "Please enter 1-9:"
   
   while valid_move?(board, input) == false do 
