@@ -26,5 +26,7 @@ end
 def move(board, index, token)
   
 end
+
+def turn
   
 
