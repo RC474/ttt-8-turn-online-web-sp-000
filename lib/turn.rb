@@ -25,7 +25,7 @@ def valid_move?(board, index)
   end
 end
 
-def move(board, index, token)
+def move(board, index, token="X")
   # board[0] = "O"
   # board[8] = "X"
   
@@ -33,7 +33,7 @@ def move(board, index, token)
 end
 
 
-def turn
+def turn(board)
   puts "Please enter 1-9:"
   user_input = gets.chomp 
   index = input_to_index(user_input)
