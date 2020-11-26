@@ -29,7 +29,7 @@ def move(board, index, token)
 end
 
 
-def turn 
+def turn(input)
   
 end
 
